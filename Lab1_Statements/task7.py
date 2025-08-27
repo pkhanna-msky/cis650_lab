@@ -2,18 +2,18 @@ largest = 0
 while True:
     next_input = int(input('Enter number or -1 to stop): '))
     if next_input == -1:
-    break
+        break
 else:
     if next_input > largest:
-        largest = next_input
+     largest = next_input
 print('The largest number is' , largest)
 
 largest = -99
 while True:
     next_input = int(input('Enter number or -1 to stop): '))
     if next_input == -1:
-    break
+        break
 else:
     if next_input > largest:
-        largest = next_input
+     largest = next_input
 print('The largest number is' , largest)
