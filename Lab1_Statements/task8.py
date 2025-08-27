@@ -5,7 +5,8 @@ while True:
         break
     else:
         position = alphabets.find(user_entry)
-        print(f'{user_entry} is at position {position}')
+        if position == -1:
+            print(f'{user_entry} is at position {position}')
 
 alphabets='abcdefghijklmnopqrstuvwxyz'
 while True:
@@ -14,4 +15,5 @@ while True:
         break
     else:
         position = alphabets.find(user_entry)
-        print(f'{user_entry} is at position {position}')
+        if position == -1:
+            print(f'{user_entry} is not at position {position}')
