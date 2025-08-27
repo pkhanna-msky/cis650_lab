@@ -17,4 +17,4 @@ if len(first_name)>0: and  len(last_name)>0:
     print('first' , name)
     print('last' , name)
 else:
-    print('Enter your name first and last name') 
+    print('Enter your first and last name') 
