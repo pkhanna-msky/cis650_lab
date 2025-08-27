@@ -11,9 +11,8 @@ else:
     print('Enter your name, please!')
 
 first_name = input('Enter your first name: ')
-last _name = input('Enter your last name: ')
-
-if len(first_name)>0: and  len(last_name)>0:
+last_name = input('Enter your last name: ')
+if len(first_name)>0: and len(last_name)>0:
     print('first' , name)
     print('last' , name)
 else:
