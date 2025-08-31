@@ -11,4 +11,4 @@ if quantity.isdigit():
     quantity = int(quantity)
 else:
     print('Enter a valid value for quantity: ')
-    print('Invalid quantity. Please enter number.')
+    
